@@ -1,0 +1,212 @@
+/*
+Theme Name: The YMC Learning Theme
+Theme URI: http://theymc.com
+Description: A theme we are using to learn about WordPress at The YMC - Season 8
+Author: Everybody at The YMC
+Version: 0.1
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: gray;
+}
+
+/* optional contextual body background colors 
+.home {
+    background: yellow;
+}
+
+.archive {
+    background: orange;
+}
+*/
+
+.interface {
+    width: 100%;
+}
+
+.headerbg {
+    background: #601F1D;
+}
+
+header {
+    width: 960px;
+    margin: auto;
+    padding: 20px 0 5px;
+}
+
+h1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    line-height: 100px;
+    font-size: 100px;
+}
+
+h1 a img {
+    vertical-align: middle;
+}
+
+.site_nav_bg {
+    background: rgba(245,123,32,1);
+    overflow: hidden;
+    border-top: 5px solid #F57B20;
+    border-bottom: 1px solid #F57B20;
+}
+
+nav.site {
+    width: 960px;
+    margin: auto;
+}
+
+.site_nav_bg ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.site_nav_bg ul li {
+    float: left;
+}
+
+.site_nav_bg ul li a {
+    display: block;
+    padding: 25px 20px 15px 30px;
+    background: #F57B20;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.site_nav_bg ul li a:hover {
+    background: white;
+    color: #F57B20;
+}
+
+.site_nav_bg ul li.current-menu-item a{
+    background: white;
+    color: #F57B20;
+}
+
+
+
+article {
+    margin: 20px 40px 20px 0;
+    padding: 0 0 20px;
+    border-bottom: 1px solid gray;
+    line-height: 1.5;
+}
+
+article p {
+    margin: 10px 0;
+}
+
+article hr {
+    display: none;
+}
+
+article a {
+    color: #B66C6A;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article header h2 a {
+    text-decoration: none;
+    color: #F57B20;
+}
+
+article .article_meta, article .article_categories {
+    font-size: 12px;
+    display: block;
+}
+
+
+
+#sidebar > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar > ul > li {
+    margin: 40px 0;
+}
+
+#sidebar h2 {
+    background: #601F1D;
+    color: white;
+    padding: 20px 0 0px 0px;
+    border-bottom: 5px solid #F57B20;
+}
+
+#sidebar a {
+    color: #F57B20;
+    text-decoration: none;
+}
+
+#sidebar ul li ul {
+    margin: 0;
+    padding: 0 20px;
+}
+
+#sidebar ul li ul li {
+    margin: 5px 0;
+}
+
+.footerbg {
+    background: #601F1D;
+    clear: both;
+    padding: 20px;
+    margin: 40px auto 0;
+}
+
+footer {
+    width: 960px;
+    margin: auto;
+    color: white;
+}
+
+#comments {
+    border-top: 5px solid #601F1D;
+    margin: 40px 0 0 0;
+}
+
+@media screen and (min-width:640px) {
+    #main {
+        /* Step 1 */
+        width: 960px;
+
+        /* Step 2 */
+        margin: auto;
+
+        overflow: hidden;
+    }
+
+    #articles {
+        /* Step 3 */
+        width: 75%;
+        /* Step 4 */
+        float: left;
+    }
+
+    #sidebar {
+    /* Step 3 */
+    width: 25%;
+    /* Step 4 */
+    float: right;
+}
+
+}
+
+
+
+
+
